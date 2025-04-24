@@ -2,6 +2,7 @@ import './globals.css';
 
 import FlyonuiScript from '../components/FlyonuiScript';
 import NavBar from '../components/NavBar';
+import Footer from '@/components/Footer';
 
 export default function RootLayout({
   children,
@@ -13,6 +14,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-base-200">
         <NavBar />
         <div className="p-6">{children}</div>
+        <Footer />
       </body>
       <FlyonuiScript />
     </html>

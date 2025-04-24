@@ -8,7 +8,7 @@ export default function NavBar() {
           className="link text-base-content/90 link-neutral text-xl font-semibold no-underline"
           href="/"
         >
-          FlyonUI
+          4twentydev
         </Link>
       </div>
 
