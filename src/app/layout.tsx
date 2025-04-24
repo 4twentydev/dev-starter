@@ -2,7 +2,7 @@ import './globals.css';
 
 import FlyonuiScript from '../components/FlyonuiScript';
 import NavBar from '../components/NavBar';
-import Footer from '@/components/Footer';
+import Footer from '../components/Footer';
 
 export default function RootLayout({
   children,
